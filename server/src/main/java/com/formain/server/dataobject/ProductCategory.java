@@ -2,9 +2,9 @@ package com.formain.server.dataobject;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+//import javax.persistence.Entity;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.Id;
 import java.util.Date;
 
 /**
@@ -15,12 +15,12 @@ import java.util.Date;
  * 创建人：wufuming
  * 创建时间：2018年11月18日
  */
-@Entity
-@Data
+//@Entity
+//@Data
 public class ProductCategory {
 
-    @Id
-    @GeneratedValue
+    //@Id
+    //@GeneratedValue
     private Integer categoryId;
 
     /** 类目名字. */

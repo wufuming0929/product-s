@@ -1,3 +1,4 @@
+/*
 package com.formain.server.controller;
 
 import com.formain.server.common.ResultUtil;
@@ -18,6 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+*/
 /**
  * 项目名称：product
  * 包： com.formain.product.controller
@@ -25,8 +27,9 @@ import java.util.stream.Collectors;
  * 类描述：商品控制器
  * 创建人：wufuming
  * 创建时间：2018年11月18日
- */
-@RestController
+ *//*
+
+//@RestController
 @RequestMapping("/product")
 @Slf4j
 public class ProductController {
@@ -73,4 +76,4 @@ public class ProductController {
         productService.decreaseStock(productDtos);
     }
 
-}
+}*/

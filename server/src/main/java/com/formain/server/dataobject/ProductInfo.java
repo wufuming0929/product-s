@@ -2,8 +2,8 @@ package com.formain.server.dataobject;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+//import javax.persistence.Entity;
+//import javax.persistence.Id;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -15,12 +15,12 @@ import java.util.Date;
  * 创建人：wufuming
  * 创建时间：2018年11月17日
  */
-@Data
-@Entity
+//@Data
+//@Entity
 //@Table(name = "ng_xxx_xxx")表名不一致
 public class ProductInfo {
 
-    @Id//主键
+    //@Id//主键
     private String productId;
 
     /** 名字. */

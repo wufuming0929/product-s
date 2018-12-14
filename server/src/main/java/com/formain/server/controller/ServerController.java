@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class ServerController {
 
-    @Autowired
-    private ProductService productService;
+    //@Autowired
+    //private ProductService productService;
 
     @GetMapping("/msg")
     public String msg(){

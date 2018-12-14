@@ -1,3 +1,4 @@
+/*
 package com.formain.server.service.impl;
 
 
@@ -15,6 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.Optional;
 
+*/
 /**
  * 项目名称：product
  * 包： com.formain.product.service.impl
@@ -22,8 +24,9 @@ import java.util.Optional;
  * 类描述：
  * 创建人：wufuming
  * 创建时间：2018年11月18日
- */
-@Service
+ *//*
+
+//@Service
 public class ProductServiceImpl implements ProductService {
 
     @Autowired
@@ -58,4 +61,4 @@ public class ProductServiceImpl implements ProductService {
             productInfoRepository.save(productInfo);
         }
     }
-}
+}*/
